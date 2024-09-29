@@ -27,5 +27,12 @@ To set up the project, follow these steps:
 
 2. cd laravel-auth-project
 
-3. php artisan project:setup
+3. composer install
+
+4. cp .env.example .env
+
+5. php artisan key:generate
+
+6. php artisan project:setup
+
 
